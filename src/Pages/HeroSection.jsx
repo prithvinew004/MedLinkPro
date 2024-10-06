@@ -23,10 +23,10 @@ function HeroSection() {
 
   return (
     <>
-      <div className="bg-white p-4 overflow-hidden ">
+      <div className="bg-white p-4 overflow-hidden">
         <section
           ref={heroRef}
-          className="pt-8 pb-20 rounded-3xl md:pt-5 md:pb-10 bg-[#EBEBEB] overflow-x-clip min-h-screen"
+          className="pt-8 pb-20 rounded-3xl md:pt-5 md:pb-10 bg-[#EBEBEB] overflow-x-clip min-h-screen relative"
         >
           <Navbar />
           <div className="container relative">
@@ -41,7 +41,7 @@ function HeroSection() {
                 </p>
 
                 <div className="md:w-full lg:w-[1200px]">
-                  <p className="text-black mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl px-4 sm:px-8 md:px-16 lg:px-24">
+                  <p className="text-black mt-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl px-4 sm:px-8 md:px-16 lg:px-24">
                     Bringing it All Together!
                   </p>
                 </div>
@@ -50,7 +50,7 @@ function HeroSection() {
                   <p className="text-[#595959] text-2xl">/EST 2024</p>
                 </div>
 
-                <div className="absolute bg-[#0067FF] border flex items-center justify-center text-white w-28 sm:w-36 md:w-44 lg:w-52 right-[5%] sm:right-[8%] md:right-[12%] lg:right-[20%] top-[10%] sm:top-[15%] md:top-[18%] lg:top-24 rounded-full p-2 sm:p-3 md:p-4 lg:p-5">
+                <div className="absolute bg-[#0067FF] border flex items-center justify-center text-white w-28 sm:w-36 md:w-44 lg:w-52 right-4 sm:right-8 md:right-12 lg:right-16 top-[50px] sm:top-[80px] md:top-[100px] lg:top-[130px] rounded-full p-2 sm:p-3 md:p-4 lg:p-5">
                   <p className="text-xs sm:text-sm md:text-lg lg:text-xl">
                     Learn More
                   </p>
@@ -68,15 +68,15 @@ function HeroSection() {
                   </p>
                 </div>
 
-                <div className="absolute right-[5%] sm:right-[10%] md:right-[15%] lg:right-[20%] z-50 bottom-[-150px] sm:bottom-[-175px] md:bottom-[-200px]">
+                <div className="absolute right-[5%] sm:right-[10%] md:right-[12%] lg:right-[15%] z-30 bottom-[-80px] sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-150px]">
                   <img
                     src={heartimg}
                     alt="Heart"
-                    className="h-[200px] w-[200px] sm:h-[250px] sm:w-[250px] md:h-[350px] md:w-[350px] lg:h-[400px] lg:w-[400px]"
+                    className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px]"
                   />
                 </div>
 
-                <div className="flex gap-3 sm:gap-4 md:gap-5 px-4 sm:px-10 md:px-14 pt-10 mb-[120px] sm:mb-[140px] md:mb-[180px] lg:mb-[200px]">
+                <div className="flex gap-3 sm:gap-4 md:gap-5 px-4 sm:px-10 md:px-14 pt-10 mb-[100px] sm:mb-[120px] md:mb-[160px] lg:mb-[180px]">
                   <p className="text-sm sm:text-lg md:text-xl">Available On:</p>
                   <p className="text-[#0067FF] text-sm sm:text-lg md:text-xl">
                     Play Store

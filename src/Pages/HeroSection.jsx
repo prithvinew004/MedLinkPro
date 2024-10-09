@@ -68,7 +68,7 @@ function HeroSection() {
                   </p>
                 </div>
 
-                <div className="absolute right-[5%] sm:right-[10%] md:right-[12%] lg:right-[15%] z-30 bottom-[-80px] sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-150px]">
+                <div className="absolute right-[5%] sm:right-[10%] md:right-[12%] lg:right-[15%] z-30 bottom-[-80px] sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-150px] hidden sm:block">
                   <img
                     src={heartimg}
                     alt="Heart"

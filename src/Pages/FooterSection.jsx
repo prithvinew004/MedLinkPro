@@ -110,17 +110,17 @@ function FooterSection() {
 
         {/* Social Media Section */}
         <div className="flex flex-wrap justify-center gap-4 sm:gap-5 mt-4 sm:mt-6">
-          {/* Social Media Links with responsive width */}
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[120px] sm:w-[180px] lg:w-[280px] h-[100px] sm:h-[120px] lg:h-[171px]">
+          {/* Adjusted width and height for alignment */}
+          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={x} alt="Twitter" className="w-8 sm:w-12 lg:w-22" />
+              <img src={x} alt="Twitter" className="w-10 sm:w-14 lg:w-16" />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[120px] sm:w-[180px] lg:w-[280px] h-[100px] sm:h-[120px] lg:h-[171px]">
+          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
             <a
               href="https://instagram.com"
               target="_blank"
@@ -129,11 +129,11 @@ function FooterSection() {
               <img
                 src={insta}
                 alt="Instagram"
-                className="w-8 sm:w-12 lg:w-22"
+                className="w-10 sm:w-14 lg:w-16"
               />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[120px] sm:w-[180px] lg:w-[280px] h-[100px] sm:h-[120px] lg:h-[171px]">
+          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
             <a
               href="https://linkdin.com"
               target="_blank"
@@ -142,17 +142,17 @@ function FooterSection() {
               <img
                 src={linkdin}
                 alt="LinkedIn"
-                className="w-8 sm:w-12 lg:w-22"
+                className="w-10 sm:w-14 lg:w-16"
               />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[120px] sm:w-[180px] lg:w-[280px] h-[100px] sm:h-[120px] lg:h-[171px]">
+          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
             <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={fb} alt="Facebook" className="w-8 sm:w-12 lg:w-22" />
+              <img src={fb} alt="Facebook" className="w-10 sm:w-14 lg:w-16" />
             </a>
           </div>
         </div>

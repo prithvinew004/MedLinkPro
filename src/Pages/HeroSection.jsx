@@ -26,10 +26,13 @@ function HeroSection() {
       <div className="bg-white p-4 overflow-hidden">
         <section
           ref={heroRef}
-          className="pt-8 pb-20 rounded-3xl md:pt-5 md:pb-10 bg-[#EBEBEB] overflow-x-clip min-h-screen relative"
+          className="pt-8 pb-20 rounded-3xl md:pt-5 md:pb-10 bg-[#EBEBEB] overflow-x-clip w-full min-h-screen relative"
         >
-          <Navbar />
-          <div className="container relative">
+          <div className="flex justify-end">
+            <Navbar />
+          </div>
+
+          <div className="w-full relative">
             <div className="md:flex items-center">
               <div className="md:w-full lg:w-[1200px]">
                 <p className="text-black mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl h-auto px-4 sm:px-8 md:px-16 lg:px-24">
@@ -50,10 +53,21 @@ function HeroSection() {
                   <p className="text-[#595959] text-2xl">/EST 2024</p>
                 </div>
 
-                <div className="absolute bg-[#0067FF] border flex items-center justify-center text-white w-28 sm:w-36 md:w-44 lg:w-52 right-4 sm:right-8 md:right-12 lg:right-16 top-[50px] sm:top-[80px] md:top-[100px] lg:top-[130px] rounded-full p-2 sm:p-3 md:p-4 lg:p-5">
+                <div
+                  className="bg-[#0067FF] border flex items-center justify-center text-white w-28 sm:w-36 md:w-44 lg:w-52 right-4 sm:right-8 md:right-12 lg:right-16 top-[50px] sm:top-[80px] md:top-[100px] lg:top-[130px] rounded-full p-2 sm:p-3 md:p-4 lg:p-5
+                  relative sm:absolute mt-4 sm:mt-0"
+                >
                   <p className="text-xs sm:text-sm md:text-lg lg:text-xl">
                     Learn More
                   </p>
+                </div>
+
+                <div className="absolute right-[5%] sm:right-[10%] md:right-[12%] lg:right-[15%] z-30 bottom-[-80px] sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-150px] hidden sm:block">
+                  <img
+                    src={heartimg}
+                    alt="Heart"
+                    className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px]"
+                  />
                 </div>
 
                 <div className="mt-14 mx-auto md:mx-[100px] lg:mx-[250px]">
@@ -66,14 +80,6 @@ function HeroSection() {
                   <p className="text-lg sm:text-xl md:text-2xl text-[#010d3e] tracking-tight">
                     efficient, accurate care—all in one place.
                   </p>
-                </div>
-
-                <div className="absolute right-[5%] sm:right-[10%] md:right-[12%] lg:right-[15%] z-30 bottom-[-80px] sm:bottom-[-100px] md:bottom-[-120px] lg:bottom-[-150px] hidden sm:block">
-                  <img
-                    src={heartimg}
-                    alt="Heart"
-                    className="h-[150px] w-[150px] sm:h-[200px] sm:w-[200px] md:h-[300px] md:w-[300px] lg:h-[350px] lg:w-[350px]"
-                  />
                 </div>
 
                 <div className="flex gap-3 sm:gap-4 md:gap-5 px-4 sm:px-10 md:px-14 pt-10 mb-[100px] sm:mb-[120px] md:mb-[160px] lg:mb-[180px]">

@@ -10,9 +10,7 @@ import fb from "../assets/fb.svg";
 function FooterSection() {
   return (
     <>
-      {/* Outer container with padding and rounded corners */}
       <div className="bg-[#EBEBEB] p-6 sm:p-10 lg:p-14 mx-4 mt-4 rounded-3xl overflow-clip">
-        {/* Call to Action Section */}
         <div className="flex flex-col md:flex-row justify-between items-center bg-white p-4 sm:p-6 mx-4 lg:mx-24 rounded-2xl shadow-md">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-gray-800 text-center md:text-left">
             EXCITED? US TOO. LET'S GET MOVING.
@@ -109,18 +107,17 @@ function FooterSection() {
         </div>
 
         {/* Social Media Section */}
-        <div className="flex flex-wrap justify-center gap-4 sm:gap-5 mt-4 sm:mt-6">
-          {/* Adjusted width and height for alignment */}
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-4 sm:gap-y-0 mt-4 sm:mt-6 mx-4 sm:mx-10 lg:mx-24">
+          <div className="flex items-center justify-center border rounded-3xl bg-white w-full h-[100px] sm:h-[120px] lg:h-[150px]">
             <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={x} alt="Twitter" className="w-10 sm:w-14 lg:w-16" />
+              <img src={x} alt="Twitter" className="w-8 sm:w-10 lg:w-12" />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
+          <div className="flex items-center justify-center border rounded-3xl bg-white w-full h-[100px] sm:h-[120px] lg:h-[150px]">
             <a
               href="https://instagram.com"
               target="_blank"
@@ -129,11 +126,11 @@ function FooterSection() {
               <img
                 src={insta}
                 alt="Instagram"
-                className="w-10 sm:w-14 lg:w-16"
+                className="w-8 sm:w-10 lg:w-12"
               />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
+          <div className="flex items-center justify-center border rounded-3xl bg-white w-full h-[100px] sm:h-[120px] lg:h-[150px]">
             <a
               href="https://linkdin.com"
               target="_blank"
@@ -142,17 +139,17 @@ function FooterSection() {
               <img
                 src={linkdin}
                 alt="LinkedIn"
-                className="w-10 sm:w-14 lg:w-16"
+                className="w-8 sm:w-10 lg:w-12"
               />
             </a>
           </div>
-          <div className="p-4 flex items-center justify-center border rounded-3xl bg-white w-[150px] sm:w-[200px] lg:w-[300px] h-[120px] sm:h-[150px] lg:h-[180px]">
+          <div className="flex items-center justify-center border rounded-3xl bg-white w-full h-[100px] sm:h-[120px] lg:h-[150px]">
             <a
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={fb} alt="Facebook" className="w-10 sm:w-14 lg:w-16" />
+              <img src={fb} alt="Facebook" className="w-8 sm:w-10 lg:w-12" />
             </a>
           </div>
         </div>
